@@ -1,0 +1,19 @@
+
+
+img{
+    width: 100% !important;
+    height: 89vh !important;
+}
+button{
+    top:300px !important;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%);
+    transform: scale(1.5);
+}
+.carousel-indicators >button{
+    width:20px !important;
+    height:20px !important;
+    border-radius: 50%;
+}
